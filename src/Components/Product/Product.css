@@ -4,6 +4,10 @@
     text-transform: capitalize;
 }
 
+button {
+    margin: 0 5px;
+}
+
 span {
     font-weight: bold;
 }
