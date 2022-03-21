@@ -30,4 +30,14 @@ const removeCart = (id) =>{
     }
 }
 
-export {addCart, removeCart}
+const getTotalPrice = products =>{
+    const reducer = (previous, current) => previous + current.price;
+    const total = products.reduce(reducer,0);
+    return total;
+}
+
+export {
+    addCart, 
+    removeCart,
+    getTotalPrice as getTotal
+}
