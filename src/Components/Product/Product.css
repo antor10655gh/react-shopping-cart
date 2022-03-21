@@ -1,0 +1,9 @@
+.product {
+    border: 3px solid orange;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+span {
+    font-weight: bold;
+}
